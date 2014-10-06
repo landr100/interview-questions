@@ -48,5 +48,5 @@ Given the file `python/get.py`
  1. how well would these queries hold up against large datasets?
  2. how could we speed up queries?
  3. what are some problems with this schema? how can they be improved?
-  * `sql/employees.sql`: rewrite this schema
+6. `sql/employees.sql`: rewrite this schema
 
