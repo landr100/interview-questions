@@ -3,7 +3,7 @@
 
 1. fork the repo at https://github.com/rflynn/interview-questions
 2. clone the repo locally. Do all subsequent work there.
-3. complete as many of the following problems as you can in 45 minutes. commit work locally as it is done.
+3. complete as many of the following problems as you can in 30 minutes in any order. commit work locally as it is done.
 
 ## Write Python
 
@@ -12,10 +12,10 @@ Create the following files in `python/`. As you create them, commit them to your
 file         | spec
 -------------|--------------
 fizzbuzz.py  | write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
-perm2.py     | permutations of size 2 of a given list
 primes100.py | print the primes between 1-100
 checkstr.py  | a string may contain alphanumeric characters. it may also contain dashes, but not begin or end with them or contain 2 or sequentially. write a function that checks for this format.
 randomtuples.py | write a function to generate a list of length 0-3 of the following tuple: (an integer between 0-3, a float between -0.5 and 0.5, a random alphanumeric string of length 0-5 which may also be None)
+perm2.py     | permutations of size 2 of a given list
 
 ## Run/Read/Debug Python
 
