@@ -1,1 +1,1 @@
-select employee from (select employee, min(salary) from employees);
+select employee from employees where salary = (select min(salary) from employees);
