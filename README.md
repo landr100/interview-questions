@@ -15,6 +15,7 @@ fizzbuzz.py  | write a program that prints the numbers from 1 to 100. But for mu
 primes100.py | print the primes between 1-100
 checkstr.py  | a string may contain alphanumeric characters. it may also contain dashes, but not begin or end with them or contain 2 or sequentially. write a function that checks for this format.
 randomtuples.py | write a function to generate a list of length 0-3 of the following tuple: (an integer between 0-3, a float between -0.5 and 0.5, a random alphanumeric string of length 0-5 which may also be None)
+inherit.py   | write a class Foo and a class Bar that inherits from Foo. when a Foo object is created it prints "foo". when a Bar object is created it prints "foo" using inheritance and "bar".
 perm2.py     | permutations of size 2 of a given list
 
 ## Run/Read/Debug Python
