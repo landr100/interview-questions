@@ -1,4 +1,3 @@
-dd
 create table employees (
     id int primary key,
     manager varchar(255),
