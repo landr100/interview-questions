@@ -1,13 +1,27 @@
 #!/usr/bin/python
 
 '''
- write a program that prints the numbers from 1 to 100.
-But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz.
-For numbers which are multiples of both three and five print FizzBuzz.
+primes100.py | print the primes between 1-100
+this version uses a function to determine if a number is prime
 '''
 
-for j in range(2, 100):
-	if ((j%2 == 0) or (j%3 == 0) or (j%5 == 0) or (j%7 == 0)) and j > 7:
-		continue
-	print j
+# ref: http://stackoverflow.com/a/15285590
+# function that returns true if a number is prime, false otherwise
+def isPrime(n):
+	""""precondition n is a nonnegative integer
+postcondition:  return True if n is prime and False otherwise."""
+	if n < 2:
+		 return False
+	if n % 2 == 0:
+		 # return False
+		 return n == 2
+	k = 3
+	while k*k <= n:
+		 if n % k == 0:
+			 return False
+		 k += 2
+	return True
 
+for j in range(2, 100):
+	if(isPrime(j)):
+		print j
