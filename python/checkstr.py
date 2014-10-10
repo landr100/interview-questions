@@ -30,7 +30,8 @@ if __name__ == '__main__':
 	import sys
 	if sys.argv[1:]:
 		my_str = sys.argv[1]
-		print "result of calling checkstr on %r is %r" % (my_str, checkstr(my_str))
+		check = checkstr(my_str)
+		print "result of calling checkstr on %r is %r" % (my_str, ('Ok' if check == Ok else 'Bad'))
 	else:
 		num_fail = 0
 		# contains alphanumeric characters (plus dot, pipe, comma) ; requirements are unclear; assume success
